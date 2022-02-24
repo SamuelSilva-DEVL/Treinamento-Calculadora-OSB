@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #011627;
+}
+
+h1 {
+  color: #ffff;
+  margin-bottom: 30px;
+}
+
+p {
+  color: #ffff;
+}
+
+.btn {
+  font-size: 25px;
+  margin-top: 5px;
+  margin-left: 35px;
+  background-color: rgb(34, 12, 133);
+  width: 30px;
+  height: 25px;
+  border: none;
+}
+
+.btnInput {
+  font-size: 50px;
+  margin-top: 15px;
+  background-color: #15a0c0;
+  border: none;
+  width: 150px;
+  height: 50px;
+  text-align: center;
+  color: #ffff;
+}
+
+.btnInput::placeholder {
+  color: #ffff;
+}
+
+.btnInput:focus {
+  box-shadow: 0 0 0 0;
+  outline: 0;
+}
+input {
+  width: 15vw;
+  box-shadow: 0 0 0 0;
+  outline: 0;
+}
+.container {
+  display: flex;
+  max-width: 500px;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30vh;
+  flex-direction: column;
+}
+
+.caixas {
+  display: flex;
+  gap: 30px;
+}
+
+.caixa {
+  width: 150px;
+  height: 80px;
+  background-color: #15a0c0;
+  border-radius: 20px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.caixa2 {
+  width: 100px;
+  height: 40px;
+  margin-top: 30px;
+  background-color: rgb(34, 12, 133);
+  border-radius: 10px 30px;
+}
+
+.caixa1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 150px;
+  height: 80px;
+  background-color: #15a0c0;
+  border-radius: 20px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.caixa1 div {
+  display: flex;
+  flex-direction: column;
+}
+
+.caixa1 p {
+  font-size: 50px;
+  margin-left: 50px;
+}
+
+.result {
+  margin-top: 10px;
+  font-size: 70px;
+}
